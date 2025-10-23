@@ -62,7 +62,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT || '21' }}
           # local-dir: ${{ secrets.DEPLOY_DIR || 'out' }}
-          # server-dir: ${{ secrets.FTP_REMOTE_PATH || '/public_html/' }}
+          server-dir: ${{ secrets.FTP_REMOTE_PATH || '/public_html/' }}
           # optional:
           protocol: ftp      # or sftp
           # passive: true

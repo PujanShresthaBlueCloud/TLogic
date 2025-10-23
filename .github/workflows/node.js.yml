@@ -65,7 +65,7 @@ jobs:
           # server-dir: ${{ secrets.FTP_REMOTE_PATH || '/public_html/' }}
           # optional:
           protocol: ftp      # or sftp
-          passive: true
+          # passive: true
 
 
 

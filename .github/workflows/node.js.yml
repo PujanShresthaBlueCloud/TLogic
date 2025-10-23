@@ -55,7 +55,7 @@ jobs:
 
       # ========= FTP deploy step =========
       - name: Deploy to cPanel via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.5.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}

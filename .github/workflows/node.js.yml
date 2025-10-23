@@ -65,8 +65,6 @@ jobs:
           # server-dir: ${{ secrets.FTP_REMOTE_PATH || '/public_html/' }}
           server-dir: /public_html/
           protocol: ftps
-          security: strict
-          secure-options: "–ignore-certificate"
 
 
 

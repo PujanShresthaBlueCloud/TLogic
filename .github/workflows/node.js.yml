@@ -66,6 +66,7 @@ jobs:
           server-dir: /public_html/
           protocol: ftps
           security: strict
+          secure-options: "–ignore-certificate"
 
 
 
